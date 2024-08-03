@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pmgd | The Power of Scale</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/...">
+    <!--Google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap">
+</head>
+<!--By Pedro Martins
+    Ver: 1.0-->
+<body>
+    <svg class="sprites" width="0" height= "0">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="150 195 300 210" id="pmgd_icon">
+            <path fill="currentColor" d="M167.2,211.1c10.2-6.8,26.2-13.5,42.6-13.5c30.2,0,33.3,24.3,33.3,46.3c0,14.1-2,69.4-22,88.6
+            c-9.6,9.3-16.9,11.6-30.8,11.6h-10.7l-4.5,59.8h-23.1L167.2,211.1z M221.3,219.9h-32.2L181,324.3h32.2L221.3,219.9z"/>
+        <path fill="currentColor" d="M292.5,214c7.6-7.1,23.4-16.7,35.8-16.7c10.4,0,15.5,8.5,16.1,16.7c8.5-7.1,24.8-16.7,38.1-16.7
+            c14.1,0,17.5,10.7,17.5,20.6l-9.6,106.4h13l-1.1,16.1c-6.2,3.7-16.1,5.6-21.4,5.6c-7.3,0-14.7-2-14.7-15l9.9-111.2h-31.3
+            l-9.3,124.2h-23.7l10.4-124.2h-29.4l-9.6,124.2h-24.6l11.3-143.9h23.7L292.5,214z"/>
+        <path fill="currentColor" d="M447.7,315.8l-2.3,28.2H420l2.3-28.2H447.7z"/>        
+        </symbol>
+    </svg>
+
+    <div class="navbar">
+        <a href="work.html">Work</a>
+        <a href="archive.html">Archive</a>
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="mob-navbar">
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <div class="burger" onclick="openNav();">
+            <div class="bun1"></div>
+            <div class="meat"></div>
+            <div class="bun2"></div>
+        </div>
+    </div>
+
+    <div id="myNav" class="overlay mobile-only">
+        <!-- Button to close the overlay navigation -->
+        <div href="javascript:void(0)" class="change" onclick="closeNav();">
+            <div class="bun1" id="white"></div>
+            <div class="meat" id="white"></div>
+            <div class="bun2" id="white"></div>
+        </div>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="work.html">Work</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+    <div class="hero" id="lm"></div>
+
+    <div class="row">
+        <div class="left desktop-only">
+            <h1>lmmartins</h1>
+            <h3>Carpentry website design
+            <br>
+            <b id="read_length">Read: 2–3 minutes</b>
+            </h3>
+            <p>
+            <br>    
+            Brief was to design a brand identity for LM Martins, a highly skilled fitter with a lot of professional experience to his trade. I was responsible for designing the logo, business cards, invoice templates, and a responsive website to showcase his work.
+            <br>
+            <br>
+            From looking at my client’s past work, I spotted a striking resemblance to the swiss design movement. The use of grids for alignment, mathematical measurements, and optical compositions were all reminiscent to Swiss design and all present within the client’s works.
+            <br>
+            <br>
+            I was pleased to have made this discovery as I take a great deal of inspiration from the swiss design movement in all my works, therefore the next step was creating an identity that followed Swiss design principles whilst also sticking true to the mathematical works from LM Martins.
+            <br>
+            <br>
+            The website features mostly images with very little text at all, as it was best for the images to do the talking rather than explaining what they show, therefore this was a great opportunity to introduce a swiss like grid to show off mathematical precision and swiss principles.
+            <br>
+            <br>
+            The swiss like grid is the main aspect of the website and it was really challenging making it look like a wall that has been tiled, especially since the photos are both portrait and landscape so making everything align perfectly was tricky, but after using 110% of my brain I was able to create a very satisfying masonry grid.
+            <br>
+            <br>
+            I am proud to say that the finished designs not only follow the conventions of the swiss design movement but they also best represent the client’s mathematical and precise way of working.
+            <br>
+            <br>
+            </p>
+        </div>
+
+        <div class="right">
+            <span class="mobile-only">
+                <h1>lmmartins</h1>
+                <h3>Carpentry website design
+                <br>
+                <b id="read_length">Read: 2–3 minutes</b>
+                </h3>
+                <p>
+                <br>    
+                Brief was to design a brand identity for LM Martins, a highly skilled fitter with a lot of professional experience to his trade. I was responsible for designing the logo, business cards, invoice templates, and a responsive website to showcase his work.
+                <br>
+                <br>
+            </p>
+            </span>
+
+            <figure class="snapshot_item">
+                <img src="Work/lmmartins/lm-Sketches.jpg" alt="Logo sketches." onclick="onClick(this)">
+                <figcaption>Initial logo sketches.</figcaption>
+            </figure>
+
+            <figure class="snapshot_item">
+                <img src="Work/lmmartins/lm-Drafts1.jpg" alt="Digital drafts 1." onclick="onClick(this)">
+            </figure>
+
+            <figure class="snapshot_item">
+                <img src="Work/lmmartins/lm-Drafts2.jpg" alt="Digital drafts 2." onclick="onClick(this)">
+                <figcaption>Digital logo exploration.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                I was pleased to have made this discovery as I take a great deal of inspiration from the swiss design movement in all my works, therefore the next step was creating an identity that followed Swiss design principles whilst also sticking true to the mathematical works from LM Martins.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure class="snapshot_item">
+                <img src="Work/lmmartins/lm-Logo.jpg" alt="lm logo design." onclick="onClick(this)">
+                <figcaption>Final logo design.</figcaption>
+            </figure>
+
+            <figure class="snapshot_item">
+                <img src="Work/lmmartins/Business_cards.jpg" alt="Business cards." onclick="onClick(this)">
+                <figcaption>Front and back business card designs.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                The website features mostly images with very little text at all, as it was best for the images to do the talking rather than explaining what they show, therefore this was a great opportunity to introduce a swiss like grid to show off mathematical precision and swiss principles.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure class="snapshot_item">
+                <img src="Work/lmmartins/lm-Devices.jpg" alt="lm-Devices." onclick="onClick(this)">
+                <figcaption>Tablet and mobile device mockups.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                I am proud to say that the finished designs not only follow the conventions of the swiss design movement but they also best represent the client’s mathematical and precise way of working.
+                <br>
+                <br>
+                </p>
+            </span>
+            
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div class="modal" onclick="this.style.display='none'" id="modal01">
+        <span class="close">×</span>
+        <div class="modal-container">
+            <img class="mymodal" id="img01">
+        </div>
+    </div>
+    
+    <div class="copyright">
+        © Pedro Martins, <script type="text/javascript">document.write(new Date().getFullYear());</script>.
+        All Rights Reserved | Typeset in <a href="https://fonts.google.com/specimen/Sora" target="_blank">Sora</a> and <a href="https://fonts.google.com/specimen/Dela+Gothic+One" target="_blank">Delta Gothic One</a>.
+    </div>
+
+    <footer>
+        <!--Javascript-->
+        <script src="js/main.js"></script>
+        <script>
+            function scrollWin() {
+            window.scrollBy(0, 100);
+        }
+        </script>
+    </footer>
+</body>
+</html>

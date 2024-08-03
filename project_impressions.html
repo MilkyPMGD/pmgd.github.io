@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pmgd | Impressions magazine</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/...">
+    <!--Google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap">
+</head>
+<!--By Pedro Martins
+    Ver: 1.0-->
+<body>
+    <svg class="sprites" width="0" height= "0">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="150 195 300 210" id="pmgd_icon">
+            <path fill="currentColor" d="M167.2,211.1c10.2-6.8,26.2-13.5,42.6-13.5c30.2,0,33.3,24.3,33.3,46.3c0,14.1-2,69.4-22,88.6
+            c-9.6,9.3-16.9,11.6-30.8,11.6h-10.7l-4.5,59.8h-23.1L167.2,211.1z M221.3,219.9h-32.2L181,324.3h32.2L221.3,219.9z"/>
+        <path fill="currentColor" d="M292.5,214c7.6-7.1,23.4-16.7,35.8-16.7c10.4,0,15.5,8.5,16.1,16.7c8.5-7.1,24.8-16.7,38.1-16.7
+            c14.1,0,17.5,10.7,17.5,20.6l-9.6,106.4h13l-1.1,16.1c-6.2,3.7-16.1,5.6-21.4,5.6c-7.3,0-14.7-2-14.7-15l9.9-111.2h-31.3
+            l-9.3,124.2h-23.7l10.4-124.2h-29.4l-9.6,124.2h-24.6l11.3-143.9h23.7L292.5,214z"/>
+        <path fill="currentColor" d="M447.7,315.8l-2.3,28.2H420l2.3-28.2H447.7z"/>        
+        </symbol>
+    </svg>
+    
+    <div class="navbar">
+        <a href="work.html">Work</a>
+        <a href="archive.html">Archive</a>
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="mob-navbar">
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <div class="burger" onclick="openNav();">
+            <div class="bun1"></div>
+            <div class="meat"></div>
+            <div class="bun2"></div>
+        </div>
+    </div>
+
+    <div id="myNav" class="overlay mobile-only">
+        <!-- Button to close the overlay navigation -->
+        <div href="javascript:void(0)" class="change" onclick="closeNav();">
+            <div class="bun1" id="white"></div>
+            <div class="meat" id="white"></div>
+            <div class="bun2" id="white"></div>
+        </div>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="work.html">Work</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+    <div class="hero" id="impressions"></div>
+
+    <div class="row">
+        <div class="left desktop-only">
+            <h1>Impressions</h1>
+            <h3>Letterpress magazine
+            <br>
+            <b id="read_length">Read: 2–3 minutes</b>
+            </h3>
+            <span>
+            <p>
+            <br>    
+            Brief was to design a magazine with an appropriate topic, title, and brand of my choosing. This was to be designed as a first issue for a potential line of magazines which would fit the magazine culture in print and online.
+            <br>
+            <br>
+            The issue focuses on letterpress and explores the modern printers and methods of this generation and their effect on the craft, with a collection of works that make up each article.
+            <br>
+            <br>
+            The cover was designed in a way that could best show the letterpress element; the overlap element made from two printing impressions. This was printed from two blocks of lino, one for each colour, using a roller press.
+            <br>
+            <br>
+            The masthead was printed from a photo polymer plate, a light sensitive material, as a preferable material to ensure typographic detail and a fine print. Although it's true that a lot of time could've been saved by using polymer instead of lino, the printed outcome from both materials are different from one another (not to mention polymer is more expensive) and a more natural print was best suited for the cover.
+            <br>
+            <br>
+            Each article was designed to seem like it had been letterpress printed, however printing each page for real would have been too much to do in the time frame give, this is noticeable for the colours and gradients used for each article’s title heading. Perhaps in the future I will consider printing a document using exclusively polymer plates.
+            <br>
+            <br>
+            Overall this was an enjoyable project, the magazine’s identity is clearly for a letterpress oriented audience; complimented through how the cover and the articles were individualy designed. As well as using more polymer plates for printing, I would also consider using large wooden type as a more playful approach to letterpress printing within this issue.
+            </p>
+            <br>
+            <br>
+            </span>
+        </div>
+        <div class="right">
+            <span class="mobile-only">
+                <h1>Impressions</h1>
+                <h3>Letterpress magazine
+                <br>
+                <b id="read_length">Read: 2–3 minutes</b>
+                </h3>
+                <p>
+                <br>    
+                Brief was to design a magazine with an appropriate topic, title, and brand of my choosing. This was to be designed as a first issue for a potential line of magazines which would fit the magazine culture in print and online.
+                <br>
+                <br>
+                The issue focuses on letterpress and explores the modern printers and methods of this generation and their effect on the craft, with a collection of works that make up each article.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/Impressions/Impressions-lino_left.png" alt="Lino block left." onclick="onClick(this)">
+            </figure>
+
+            <figure>
+                <img src="Work/Impressions/Impressions-lino_right.png" alt="Lino block right." onclick="onClick(this)">
+                <figcaption>Carved blocks of white rubber–like Lino.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                The cover was designed in a way that could best show the letterpress element; the overlap element made from two printing impressions. This was printed from two blocks of lino, one for each colour, using a roller press.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/Impressions/Impressions-plates.png" alt="Printing blocks." onclick="onClick(this)">
+                <figcaption>Printing blocks used for covers.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                The masthead was printed from a photo polymer plate, a light sensitive material, as a preferable material to ensure typographic detail and a fine print. Although it's true that a lot of time could've been saved by using polymer instead of lino, the printed outcome from both materials are different from one another (not to mention polymer is more expensive) and a more natural print was best suited for the cover.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/Impressions/Impressions-tap_type.png" alt="Short article on Tap Type." onclick="onClick(this)">
+                <figcaption>Short article on Tap Type.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                Each article was designed to seem like it had been letterpress printed, however printing each page for real would have been too much to do in the time frame give, this is noticeable for the colours and gradients used for each article’s title heading. Perhaps in the future I will consider printing a document using exclusively polymer plates.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/Impressions/Impressions-guillermo.png" alt="Picture heavy article on Guillermo." onclick="onClick(this)">
+                <figcaption>Picture heavy article on Guillermo.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Work/Impressions/Impressions-kitching.png" alt="Exclusive article on Alan Kitching." onclick="onClick(this)">
+                <figcaption>Exclusive article on Alan Kitching.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                Overall this was an enjoyable project, the magazine’s identity is clearly for a letterpress oriented audience; complimented through how the cover and the articles were individualy designed. As well as using more polymer plates for printing, I would also consider using large wooden type as a more playful approach to letterpress printing within this issue.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/Impressions/Impressions-front.png" alt="Impressions letterpress magazine, front cover." onclick="onClick(this)">
+            </figure>
+
+            <figure>
+                <img src="Work/Impressions/Impressions-back.png" alt="Impressions letterpress magazine, back cover." onclick="onClick(this)">
+                <figcaption>Impressions letterpress magazine, front and back cover.</figcaption>
+            </figure>
+
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div class="modal" onclick="this.style.display='none'" id="modal01">
+        <span class="close">×</span>
+        <div class="modal-container">
+            <img class="mymodal" id="img01">
+        </div>
+    </div>
+    
+    
+    <div class="copyright">
+        © Pedro Martins, <script type="text/javascript">document.write(new Date().getFullYear());</script>.
+        All Rights Reserved | Typeset in <a href="https://fonts.google.com/specimen/Sora" target="_blank">Sora</a> and <a href="https://fonts.google.com/specimen/Dela+Gothic+One" target="_blank">Delta Gothic One</a>.
+    </div>
+
+    <footer>
+        <!--Javascript-->
+        <script src="js/main.js"></script>
+        <script>
+            function scrollWin() {
+            window.scrollBy(0, 100);
+        }
+        </script>
+    </footer>
+</body>
+</html>

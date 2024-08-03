@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pmgd | Charles Dickens book design</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/...">
+    <!--Google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap">
+</head>
+<!--By Pedro Martins
+    Ver: 1.0-->
+<body>
+    <svg class="sprites" width="0" height= "0">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="150 195 300 210" id="pmgd_icon">
+            <path fill="currentColor" d="M167.2,211.1c10.2-6.8,26.2-13.5,42.6-13.5c30.2,0,33.3,24.3,33.3,46.3c0,14.1-2,69.4-22,88.6
+            c-9.6,9.3-16.9,11.6-30.8,11.6h-10.7l-4.5,59.8h-23.1L167.2,211.1z M221.3,219.9h-32.2L181,324.3h32.2L221.3,219.9z"/>
+        <path fill="currentColor" d="M292.5,214c7.6-7.1,23.4-16.7,35.8-16.7c10.4,0,15.5,8.5,16.1,16.7c8.5-7.1,24.8-16.7,38.1-16.7
+            c14.1,0,17.5,10.7,17.5,20.6l-9.6,106.4h13l-1.1,16.1c-6.2,3.7-16.1,5.6-21.4,5.6c-7.3,0-14.7-2-14.7-15l9.9-111.2h-31.3
+            l-9.3,124.2h-23.7l10.4-124.2h-29.4l-9.6,124.2h-24.6l11.3-143.9h23.7L292.5,214z"/>
+        <path fill="currentColor" d="M447.7,315.8l-2.3,28.2H420l2.3-28.2H447.7z"/>        
+        </symbol>
+    </svg>
+    
+    <div class="navbar">
+        <a href="work.html">Work</a>
+        <a href="archive.html">Archive</a>
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="mob-navbar">
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <div class="burger" onclick="openNav();">
+            <div class="bun1"></div>
+            <div class="meat"></div>
+            <div class="bun2"></div>
+        </div>
+    </div>
+
+    <div id="myNav" class="overlay mobile-only">
+        <!-- Button to close the overlay navigation -->
+        <div href="javascript:void(0)" class="change" onclick="closeNav();">
+            <div class="bun1" id="white"></div>
+            <div class="meat" id="white"></div>
+            <div class="bun2" id="white"></div>
+        </div>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="work.html">Work</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+    <div class="hero" id="dickens"></div>
+
+    <div class="row">
+        <div class="left desktop-only">
+            <h1>Charles Dickens</h1>
+            <h3>Traditional book design
+            <br>
+            <b id="read_length">Read: 2–3 minutes</b>
+            </h3>
+            <span>
+            <p>
+            <br>    
+            Brief was to design the cover and inside pages for a traditional book consisting of only text and no images. This project was very editorial based with the aim of creating a traditionally designed book using a consistent grid system and careful typography detail.
+            <br>
+            <br>
+            Designing this book was very enjoyable as it allowed me to utilise InDesign in a way that, being only familiar with its basics before the project, has made me efficient with how I use the program and also with how I design documents for the future.
+            <br>
+            <br>
+            As well as focusing on typographic detail, it was important to keep the design of the book concise through paragraph styles and clear typographic hierarchy. Differentiating headings from the main body text was simple however there were other elements that had to be considered, such as referencing on each page, typographic treatment of contents page, and the index pages.
+            <br>
+            <br>
+            It was quite challenging keeping typographic consistency throughtout as there had to be some differences between each level of information.
+            <br>
+            <br>
+            The inside pages include a complex grid system based on Tschichold's theory of the Golden Ratio, specifically used as a way to create concise margins for traditional book design, although it has been modified slightly as the original margins were too close to the edge of the page and spine.
+            <br>
+            <br>
+            The mockup for this book received hand embossing, in an attempt to mimick an embossing plate, which was carefully applied to the test and decorative elements. Perfect binding was done using a wooden clamp and stuck together with PVA glue, applied with a painting brush.
+            </p>
+            <br>
+            <br>
+            </span>
+        </div>
+
+
+        <div class="right">
+
+            <span class="mobile-only">
+                <h1>Charles Dickens</h1>
+                <h3>Traditional book design
+                <br>
+                <b id="read_length">Read: 2–3 minutes</b>
+                </h3>
+                <p>
+                <br>    
+                Brief was to design the cover and inside pages for a traditional book consisting of only text and no images. This project was very editorial based with the aim of creating a traditionally designed book using a consistent grid system and careful typography detail.
+                <br>
+                <br>
+                Designing this book was very enjoyable as it allowed me to utilise InDesign in a way that, being only familiar with its basics before the project, has made me efficient with how I use the program and also with how I design documents for the future.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/Dickens/Dickens-Contents.png" alt="Contents page spread." onclick="onClick(this)">
+                <figcaption>Contents page spread.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Work/Dickens/Dickens-Chapter_one.png" alt="Chapter spread, showing typographic hierarchy." onclick="onClick(this)">
+                <figcaption>Chapter spread, showing typographic hierarchy.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                As well as focusing on typographic detail, it was important to keep the design of the book concise through paragraph styles and clear typographic hierarchy. Differentiating headings from the main body text was simple however there were other elements that had to be considered, such as referencing on each page, typographic treatment of contents page, and the index pages.
+                <br>
+                <br>
+                It was quite challenging keeping typographic consistency throughtout as there had to be some differences between each level of information.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/Dickens/Dickens-Specification_masters.png" alt="Masters page." onclick="onClick(this)">
+            </figure>
+
+            <figure>
+                <img src="Work/Dickens/Dickens-Specification_Golden_ratio.png" alt="Grid system." onclick="onClick(this)">
+                <figcaption>Spreads taken from printer's specification document, grid system & masters page.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                The inside pages include a complex grid system based on Tschichold's theory of the Golden Ratio, specifically used as a way to create concise margins for traditional book design, although it has been modified slightly as the original margins were too close to the edge of the page and spine.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/Dickens/Dickens-Specification.png" alt="Book cover printing specification spread." onclick="onClick(this)">
+                <figcaption>Book cover printing specification spread.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Work/Dickens/Dickens-Specification_plate.png" alt="Spread for the embossing plate specs." onclick="onClick(this)">
+                <figcaption>Spread for the embossing plate specs.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                The mockup for this book received hand embossing, in an attempt to mimick an embossing plate, which was carefully applied to the test and decorative elements. Perfect binding was done using a wooden clamp and stuck together with PVA glue, applied with a painting brush.
+                <br>
+                <br>
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/Dickens/Dickens-Book_cover.png" alt="Front cover." onclick="onClick(this)">
+            </figure>
+
+            <figure>
+                <img src="Work/Dickens/Dickens-Back_cover.png" alt="Back cover." onclick="onClick(this)">
+                <figcaption>A Literary Life, front and back book cover.</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div class="modal" onclick="this.style.display='none'" id="modal01">
+        <span class="close">×</span>
+        <div class="modal-container">
+            <img class="mymodal" id="img01">
+        </div>
+    </div>
+    
+    <div class="copyright">
+        © Pedro Martins, <script type="text/javascript">document.write(new Date().getFullYear());</script>.
+        All Rights Reserved | Typeset in <a href="https://fonts.google.com/specimen/Sora" target="_blank">Sora</a> and <a href="https://fonts.google.com/specimen/Dela+Gothic+One" target="_blank">Delta Gothic One</a>.
+    </div>
+
+    <footer>
+        <!--Javascript-->
+        <script src="js/main.js"></script>
+        <script>
+            function scrollWin() {
+            window.scrollBy(0, 100);
+        }
+        </script>
+    </footer>
+</body>
+</html>

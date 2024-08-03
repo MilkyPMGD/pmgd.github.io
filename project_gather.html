@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pmgd | Gather web app</title>
+    <meta name="description" content="Web app design that adapts multiple devices whilst meeting the user’s needs. This project placed a lot of emphasis on user experience which challenged me in creating design solutions to make a web app that was both intuitive and usable to the users.">
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/...">
+    <!--Google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap">
+</head>
+<!--By Pedro Martins
+    Ver: 1.0-->
+<body>
+    <svg class="sprites" width="0" height= "0">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="150 195 300 210" id="pmgd_icon">
+            <path fill="currentColor" d="M167.2,211.1c10.2-6.8,26.2-13.5,42.6-13.5c30.2,0,33.3,24.3,33.3,46.3c0,14.1-2,69.4-22,88.6
+            c-9.6,9.3-16.9,11.6-30.8,11.6h-10.7l-4.5,59.8h-23.1L167.2,211.1z M221.3,219.9h-32.2L181,324.3h32.2L221.3,219.9z"/>
+        <path fill="currentColor" d="M292.5,214c7.6-7.1,23.4-16.7,35.8-16.7c10.4,0,15.5,8.5,16.1,16.7c8.5-7.1,24.8-16.7,38.1-16.7
+            c14.1,0,17.5,10.7,17.5,20.6l-9.6,106.4h13l-1.1,16.1c-6.2,3.7-16.1,5.6-21.4,5.6c-7.3,0-14.7-2-14.7-15l9.9-111.2h-31.3
+            l-9.3,124.2h-23.7l10.4-124.2h-29.4l-9.6,124.2h-24.6l11.3-143.9h23.7L292.5,214z"/>
+        <path fill="currentColor" d="M447.7,315.8l-2.3,28.2H420l2.3-28.2H447.7z"/>        
+        </symbol>
+    </svg>
+    
+    <div class="navbar">
+        <a href="work.html">Work</a>
+        <a href="archive.html">Archive</a>
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="mob-navbar">
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <div class="burger" onclick="openNav();">
+            <div class="bun1"></div>
+            <div class="meat"></div>
+            <div class="bun2"></div>
+        </div>
+    </div>
+
+    <div id="myNav" class="overlay mobile-only">
+        <!-- Button to close the overlay navigation -->
+        <div href="javascript:void(0)" class="change" onclick="closeNav();">
+            <div class="bun1" id="white"></div>
+            <div class="meat" id="white"></div>
+            <div class="bun2" id="white"></div>
+        </div>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="work.html">Work</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+    <div class="center_container">
+        <div class="hero" id="gather"></div>
+
+        <section id="center_body">
+            <div id="center_text">
+                <h1>Gather</h1>
+                <h3>UI & UX application
+                <br>
+                <b id="read_length">Read: 5–6 minutes</b>
+                </h3>    
+                <p>
+                <br>    
+                The brief was to design a web app that could adapt to 
+                multiple devices, mainly mobile and desktop, and also 
+                designing to meet the user’s needs. This project placed a lot 
+                of emphasis on user experience which challenged me in creating 
+                design solutions to make a web app that was both intuitive 
+                and usable to the users.
+                <br>
+                <br>
+                Gather is an in-browser web application designed for 
+                people suffering from mental states. More specifically, it 
+                aims to combat these mental states, such as stress, anxiety, 
+                and depression through growing fruits and vegetables 
+                easily and accessibly indoors.
+                <br>
+                <br>
+                </p>
+            </div>
+
+            <figure class="center_img">
+                <img src="Work/Gather/Gather_Mobile.png" alt="Gather, mobile mockup." onclick="onClick(this)">
+                <figcaption>Gather, mobile mockup.</figcaption>
+            </figure>
+
+            <div id="center_text">
+                <p>
+                The name is a play on the literal meaning on the word 
+                gather, it can for example mean to gather something from 
+                the garden or to gather one’s thoughts, creating an 
+                umbrella term that made it appropriate for a web app about 
+                growing and mental health.
+                <br>
+                <br>
+                The idea behind using growing as a medium of support was 
+                based on research 
+                that looked into the effects of gardening 
+                and how it was a healthy activity for mental health, and is 
+                also known to be quite therapeutic and sometimes is a 
+                recommended activity by doctors.
+                <br>
+                <br>
+                Gather puts a focus on growing indoors specifically to 
+                reach people that live in rural areas and heavily populated 
+                cities, such as London or Birmingham, as these areas are 
+                'concrete jungles' that rarely offer housing with 
+                appropriate outdoor garden or lawn. There is also data 
+                compiled showing cities in the UK that are the most 
+                stressful to live in, with highly populated cities tending to 
+                carry the most stress.
+                <br>
+                <br>
+                User interviews were conducted; a handful of people, with 
+                characteristics that fit the concept of Gather, were picked 
+                as a small user group and each asked a series of questions. 
+                This was necessary to understand the user demographics, 
+                behaviour, and establish certain expectations or goals that 
+                these users may have towards the app.
+                <br>
+                <br>
+                </p>
+            </div>
+
+
+            <figure class="center_img">
+                <img src="Work/Gather/Gather_Personas.png" alt="User personas, created based on findings from interviews." onclick="onClick(this)">
+                <figcaption>User personas, created based on findings from interviews.</figcaption>
+            </figure>
+
+            <div id="center_text">
+                <p>
+                Three personas, based on the interviewees, were created to show the user’s expectations, goals, behaviour, and triggers towards the app. This was necessary as I was now able to establish my target user group for the app which would later on influence my design decisions to cater towards the user.
+                <br>
+                <br>
+                With a user group established, I was then able to create a user journey based on the personas. This would help to establish user goals from triggers and what steps they would expect to take in order for them to reach their goal, each trigger being a verb as no pages had been established by this stage.
+                <br>
+                <br>
+                </p>
+            </div>
+
+            <figure class="center_img">
+                <img src="Work/Gather/User_Mental_Models.png" alt="Mental models, with each user scenario being in separate colours." onclick="onClick(this)">
+                <figcaption>Mental models, with each user scenario being in separate colours.</figcaption>
+            </figure>
+
+            <div id="center_text">
+                <p>
+                For example, a user trigger would be “I want to grow strawberries” with the end goal for the user being to simply “grow strawberries”. The necessary steps that the user might expect would be to perhaps look at a list of things that they could grow, look at some information relating to perhaps what they’ll need for growing, and to see the necessary steps needed to grow what they want.
+                <br>
+                <br>
+                </p>
+            </div>
+
+            <figure class="center_img">
+                <img src="Work/Gather/Page_flow.png" alt="Page flow diagram, created from user scenarios, white boxes represent user objectives within specified page." onclick="onClick(this)">
+                <figcaption>Page flow diagram, created from user scenarios, white boxes represent user objectives within specified page.</figcaption>
+            </figure>
+
+            <div id="center_text">
+                <p>
+                Once these steps were established I was able to map out this user journey into a page flow diagram, creating the pages needed to achieve the goals within the user journey.
+                <br>
+                <br>
+                </p>
+            </div>
+
+            <figure class="center_img">
+                <img src="Work/Gather/Desktop&Mobile_sketches.png" alt="Wireframe sketches, based on user flow, for both desktop and mobile screens." onclick="onClick(this)">
+                <figcaption>Wireframe sketches, based on user flow, for both desktop and mobile screens.</figcaption>
+            </figure>
+
+            <div id="center_text">
+                <p>
+                Next came sketching what the pages might look like, such as thinking about what functions would help the user in completing their objective and how it all could look roughly. This step was more thinking about how each page would help the user than how they looked. This was also to get an idea of how each page might look for the necessary devices, desktop and mobile, as this is also necessary in making sure that each page works in fulfilling the user goals for the required screen sizes.
+                <br>
+                <br>
+                </p>
+            </div>
+
+            <figure class="center_img">
+                <img src="Work/Gather/Desktop&mobile_wireframes.png" onclick="onClick(this)">
+                <figcaption>Leaflet front and back spead.</figcaption>
+            </figure>
+
+            <div id="center_text">
+                <p>
+                Clickable UI prototype made with Figma, based on the wireframe sketches. Only the most essential functions would work as this was not the final prototype, this was just to get an idea on how the app might work as a final product. This prototype later underwent user testing where I observed and recorded the users’ actions as they interacted with it, which would later tell me what worked and what didn’t work.
+                <br>
+                <br>
+                </p>
+            </div>
+
+            <figure class="center_img">
+                <img src="Work/Gather/Desktop&Mobile_mockup.png" onclick="onClick(this)">
+                <figcaption>Leaflet front and back spead.</figcaption>
+            </figure>
+
+            <div id="center_text">
+                <p>
+                Once iterations had been made, the final prototype was finished. This also went through another round of user testing, which allowed for me to reiterate the app to not only function better but to also cater to the user needs much more efficiently. This project was a whole lot of fun as it allowed me to explore and think about the user in such an in–depth that I had never done before, it was a fulfilling experience and one that I would love to do again.
+                </p>
+            </div>
+
+        </section>
+        <!--
+        <div id="Figma_prototype">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F1k9MgSIwCvgtQwpoYzCaCG%2FGather-Android%3Fnode-id%3D128%253A140%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>    
+        </div>
+        -->
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div class="modal" onclick="this.style.display='none'" id="modal01">
+        <span class="close">×</span>
+        <div class="modal-container">
+            <img class="mymodal" id="img01">
+        </div>
+    </div>    
+
+    <div class="copyright">
+        © Pedro Martins, <script type="text/javascript">document.write(new Date().getFullYear());</script>.
+        All Rights Reserved | Typeset in <a href="https://fonts.google.com/specimen/Sora" target="_blank">Sora</a> and <a href="https://fonts.google.com/specimen/Dela+Gothic+One" target="_blank">Delta Gothic One</a>.
+    </div>
+
+    <footer>
+        <!--Javascript-->
+        <script src="js/main.js"></script>
+        <script>
+            function scrollWin() {
+            window.scrollBy(0, 100);
+        }
+        </script>
+    </footer>
+</body>
+</html>

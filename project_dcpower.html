@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pmgd | DC Power</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/...">
+    <!--Google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap">
+</head>
+<!--By Pedro Martins
+    Ver: 1.0-->
+<body>
+    <svg class="sprites" width="0" height= "0">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="150 195 300 210" id="pmgd_icon">
+            <path fill="currentColor" d="M167.2,211.1c10.2-6.8,26.2-13.5,42.6-13.5c30.2,0,33.3,24.3,33.3,46.3c0,14.1-2,69.4-22,88.6
+            c-9.6,9.3-16.9,11.6-30.8,11.6h-10.7l-4.5,59.8h-23.1L167.2,211.1z M221.3,219.9h-32.2L181,324.3h32.2L221.3,219.9z"/>
+        <path fill="currentColor" d="M292.5,214c7.6-7.1,23.4-16.7,35.8-16.7c10.4,0,15.5,8.5,16.1,16.7c8.5-7.1,24.8-16.7,38.1-16.7
+            c14.1,0,17.5,10.7,17.5,20.6l-9.6,106.4h13l-1.1,16.1c-6.2,3.7-16.1,5.6-21.4,5.6c-7.3,0-14.7-2-14.7-15l9.9-111.2h-31.3
+            l-9.3,124.2h-23.7l10.4-124.2h-29.4l-9.6,124.2h-24.6l11.3-143.9h23.7L292.5,214z"/>
+        <path fill="currentColor" d="M447.7,315.8l-2.3,28.2H420l2.3-28.2H447.7z"/>        
+        </symbol>
+    </svg>
+    
+    <div class="navbar">
+        <a href="work.html">Work</a>
+        <a href="archive.html">Archive</a>
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="mob-navbar">
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <div class="burger" onclick="openNav();">
+            <div class="bun1"></div>
+            <div class="meat"></div>
+            <div class="bun2"></div>
+        </div>
+    </div>
+
+    <div id="myNav" class="overlay mobile-only">
+        <!-- Button to close the overlay navigation -->
+        <div href="javascript:void(0)" class="change" onclick="closeNav();">
+            <div class="bun1" id="white"></div>
+            <div class="meat" id="white"></div>
+            <div class="bun2" id="white"></div>
+        </div>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="work.html">Work</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+    <div class="hero" id="dcpower"></div>
+
+    <div class="row">
+        <div class="left desktop-only">
+            <h1>DC Power</h1>
+            <h3>App logo design
+            <br>
+            <b id="read_length">Read: 2–3 minutes</b>
+            </h3>
+            <span>
+            <p>
+            <br>    
+            Logo design for DC Power, a cloud based application designed to measure and send specific performance data of a university’s server to the user.
+            <br>
+            <br>
+            The concept is based on the main sensor component, a small chip, which also sends data to the cloud so the logo is quite literally representing that. This was a fun design project with a relatively simple concept to achieve which also took a very short amount of time to complete from start to finish.
+            <br>
+            <br>
+            Designing the logo followed a simple illustrative style with geometrical shapes and rounded edges; this was chosen over hard edges as the rounded look is not only pleasing but also represents how complex information is being simplified into this app.
+            <br>
+            <br>
+            To keep in theme with the logo, some icon designs were also made for each page on the main menu. This was also done to preserve consistency to the brand that the logo had built as the previous icons were too different to the designed illustrative style, therefore these elements clashed. Luckily it wasn’t too difficult to design new icons as they were kept as simple as possible to best represent their designated page.
+            <br>
+            <br>
+            This app is available privately to the university, however in the future this app could be made publicly available as there are certainly other institutes that could benefit from a data gathering application for servers.
+            <br>
+            <br>
+            </p>    
+        </span>
+        </div>
+        <div class="right">
+            <span class="mobile-only">
+                <h1>DC Power</h1>
+                <h3>App logo design
+                <br>
+                <b id="read_length">Read: 2–3 minutes</b>
+                </h3>
+                <p>
+                <br>
+                Logo design for DC Power, a cloud based application designed to measure and send specific performance data of a university’s server to the user.
+                <br>
+                <br>
+                The concept is based on the main sensor component, a small chip, which also sends data to the cloud so the logo is quite literally representing that. This was a fun design project with a relatively simple concept to achieve which also took a very short amount of time to complete from start to finish.
+                <br>
+                <br>        
+                </p>
+            </span>
+            
+            <figure>
+                <img src="Work/DC Power/DCPower_branding.png" alt="Logo branding." onclick="onClick(this)">
+                <figcaption>Logo branding.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Work/DC Power/DCPower_drafts.png" alt="Exploration of shape and positioning." onclick="onClick(this)">
+                <figcaption>Exploration of shape and positioning.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                Designing the logo followed a simple illustrative style with geometrical shapes and rounded edges; this was chosen over hard edges as the rounded look is not only pleasing but also represents how complex information is being simplified into this app.
+                <br>
+                <br>        
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/DC Power/DCPower_icons.png" alt="Simple icons designed for the in–app menu." onclick="onClick(this)">
+                <figcaption>Simple icons designed for the in–app menu.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                To keep in theme with the logo, some icon designs were also made for each page on the main menu. This was also done to preserve consistency to the brand that the logo had built as the previous icons were too different to the designed illustrative style, therefore these elements clashed. Luckily it wasn’t too difficult to design new icons as they were kept as simple as possible to best represent their designated page.
+                <br>
+                <br>        
+                </p>
+            </span>
+
+            <figure>
+                <img src="Work/DC Power/DCPower_device.png" alt="DC Power on the Google Play store." onclick="onClick(this)">
+                <figcaption>DC Power on the Google Play store.</figcaption>
+            </figure>
+
+            <span class="mobile-only">
+                <p>
+                This app is available privately to the university, however in the future this app could be made publicly available as there are certainly other institutes that could benefit from a data gathering application for servers.
+                <br>
+                <br>        
+                </p>
+            </span>
+
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div class="modal" onclick="this.style.display='none'" id="modal01">
+        <span class="close">×</span>
+        <div class="modal-container">
+            <img class="mymodal" id="img01">
+        </div>
+    </div>
+    
+    <div class="copyright">
+        © Pedro Martins, <script type="text/javascript">document.write(new Date().getFullYear());</script>.
+        All Rights Reserved | Typeset in <a href="https://fonts.google.com/specimen/Sora" target="_blank">Sora</a> and <a href="https://fonts.google.com/specimen/Dela+Gothic+One" target="_blank">Delta Gothic One</a>.
+    </div>
+
+    <footer>
+        <!--Javascript-->
+        <script src="js/main.js"></script>
+        <script>
+            function scrollWin() {
+            window.scrollBy(0, 100);
+        }
+        </script>
+    </footer>
+</body>
+</html>
