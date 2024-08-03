@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pmgd | Graphic Designer</title>
+    <meta name="description" content="Graphic Designer specialising in Branding Design.">
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/...">
+    <!--Google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap">
+</head>
+<!--By Pedro Martins
+    Ver: 1.0-->
+<body>
+    <svg class="sprites" width="0" height= "0">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="150 195 300 210" id="pmgd_icon">
+            <path fill="currentColor" d="M167.2,211.1c10.2-6.8,26.2-13.5,42.6-13.5c30.2,0,33.3,24.3,33.3,46.3c0,14.1-2,69.4-22,88.6
+            c-9.6,9.3-16.9,11.6-30.8,11.6h-10.7l-4.5,59.8h-23.1L167.2,211.1z M221.3,219.9h-32.2L181,324.3h32.2L221.3,219.9z"/>
+        <path fill="currentColor" d="M292.5,214c7.6-7.1,23.4-16.7,35.8-16.7c10.4,0,15.5,8.5,16.1,16.7c8.5-7.1,24.8-16.7,38.1-16.7
+            c14.1,0,17.5,10.7,17.5,20.6l-9.6,106.4h13l-1.1,16.1c-6.2,3.7-16.1,5.6-21.4,5.6c-7.3,0-14.7-2-14.7-15l9.9-111.2h-31.3
+            l-9.3,124.2h-23.7l10.4-124.2h-29.4l-9.6,124.2h-24.6l11.3-143.9h23.7L292.5,214z"/>
+        <path fill="currentColor" d="M447.7,315.8l-2.3,28.2H420l2.3-28.2H447.7z"/>        
+        </symbol>
+    </svg>
+
+    <div class="navbar">
+        <a href="work.html">Work</a>
+        <a href="archive.html">Archive</a>
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="mob-navbar">
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <div class="burger" onclick="openNav();">
+            <div class="bun1"></div>
+            <div class="meat"></div>
+            <div class="bun2"></div>
+        </div>
+    </div>
+
+    <div id="myNav" class="overlay mobile-only">
+        <!-- Button to close the overlay navigation -->
+        <div href="javascript:void(0)" class="change" onclick="closeNav();">
+            <div class="bun1" id="white"></div>
+            <div class="meat" id="white"></div>
+            <div class="bun2" id="white"></div>
+        </div>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="work.html">Work</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    
+    <span class="mob-snap mobile-only"></span>
+  
+    <section class="landing_section">
+        <h1>Hello there! My name is Pedro Martins. I am a Graphic Designer specialising in <a href="https://www.google.com/">Branding</a>.
+            <br>
+            <br>
+            My design philosophy is to create works that are simple, unique, and above all functional.
+        </h1>
+        <a class="prompt desktop-only" onclick="scrollWin()">My work
+        <br>
+        <i class="down_arrow"></i></a>
+    </section>
+    
+    <span class="mob-snap mobile-only"></span>
+
+    <section class="project_section" id="project_1">
+        <!--<div class="mob-project" id="project_1"></div>-->
+        <div class="project_content">
+            <h2>Anella</h2>
+            <h3>Branding & Identity</h3>
+            <br>
+            <p>
+                Designing for change with Anella, a cause that aims to raise awareness, improve well-being, and increase the care provided for patients with CF (Cystic Fibrosis) across hospitals.
+            </p>
+            <a class="project_button" id="button_1"
+            href="project_anella.html">View Project</a>
+        </div>
+    </section>
+
+    <span class="mob-snap mobile-only"></span>
+
+    <section class="project_section" id="project_2">
+        <div class="project_content">
+            <h2>lmmartins</h2>
+            <h3>Branding – Web Design</h3>
+            <br>
+            <p>
+            Brand identity design for LM Martins, a highly skilled fitter with a lot of professional experience to his trade. I was responsible for designing the logo, business cards, invoice templates, and a responsive website to showcase his work.
+            </p>
+            <a class="project_button" id="button_2"
+            href="project_lmmartins.html">View Project</a>
+        </div>
+    </section>
+    
+    <span class="mob-snap mobile-only"></span>
+
+    <section class="project_section" id="project_3">
+        <div class="project_content">
+            <h2>Gather</h2>
+            <h3>UI & UX Design</h3>
+            <br>
+            <p>
+            Gather is an inbrowser web application designed for people suffering from mentals states, such as
+            stress, anxiety, and depression. Gather aims to combat these mental states through the use of
+            growing fruits and vegetables indoors.
+            </p>
+            <a class="project_button" id="button_3"
+            href="project_gather.html">View Project</a>
+        </div>
+    </section>
+
+    <span class="mob-snap mobile-only"></span>
+
+    <section class="project_section" id="project_4">
+        <div class="project_content">
+            <h2>The Power<br>of Scale</h2>
+            <h3>Conference Branding</h3>
+            <br>
+            <p>
+            Architectural conference with the main theme being architecture for the people’s wellbeing. The branding is representing this theme by each block having been literally printed by hand, adding a human element to the design.
+            </p>
+            <a class="project_button" id="button_4"
+            href="project_tpos.html">View Project</a>
+        </div>
+    </section>
+
+    <span class="mob-snap mobile-only"></span>
+
+    <section class="project_section" id="project_5">
+        <video autoplay muted loop id="myVideo">
+            <source src="Detroit Spinners.mp4" type="video/mp4">
+        </video>
+        <video id='mySound' style="height: 0;" src='audio/RubberBandSound.mp3'></video>
+        <div class="project_content">
+            <h2>Detroit<br>Spinners</h2>
+            <h3>Packaging Design</h3>
+            <br>
+            <p>
+                The chosen design aesthetic for this album are rubberbands, inspired by the song that best represents the album (Rubberband Man), and is heavily present throughout the deliverables.
+            </p>
+            <a class="project_button" id="button_5"
+            href="project_spinners.html">Play Project</a>
+            <!--
+            <a onmouseover="PlaySound('mySound')" 
+            onmouseout="StopSound('mySound')"
+            class="project_button" id="button_5"
+            href="work.html">|> Play Project</a>
+            -->
+        </div>
+    </section>
+
+    <span class="mob-snap mobile-only"></span>
+
+    <section class="end_section">
+        <h1>I am more than just a <a href="about.html">Designer</a>.
+        <br>
+        <!--
+        As a designer I am:
+        <ul>
+        <li>Typographic</li>
+        <li>Research led</li>
+        <li>User first</li>
+        <li>Multi–disciplined</li>
+        </ul>
+        -->
+        View more of <a href="work.html">my work</a>.
+        </h1>
+    </section>
+    
+    <div class="copyright">
+        © Pedro Martins, <script type="text/javascript">document.write(new Date().getFullYear());</script>.
+        All Rights Reserved | Typeset in <a href="https://fonts.google.com/specimen/Sora" target="_blank">Sora</a> and <a href="https://fonts.google.com/specimen/Dela+Gothic+One" target="_blank">Delta Gothic One</a>.
+        <span class="mob-snap mobile-only"></span>
+    </div>
+
+    <footer>
+        <!--Javascript-->
+        <script src="js/main.js"></script>
+        <script>
+            function scrollWin() {
+            window.scrollBy(0, 600);
+            }
+        </script>
+
+        <script>
+            /* 
+            function burgerFunction(x) {
+            x.classList.toggle("change");
+            document.getElementById("myNav").style.width = "100%";
+            }
+            */
+            /* Open when someone clicks on the span element */
+            function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            }
+
+            /* Close when someone clicks on the "x" symbol inside the overlay */
+            function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            }
+
+            function burgerFunction(x) {
+            x.classList.toggle("change");
+            }
+
+        </script>
+        
+    </footer>
+</body>
+</html>
