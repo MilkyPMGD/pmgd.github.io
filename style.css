@@ -828,7 +828,7 @@ hr{
 .center_img > video{
     line-height: 1.3;
     overflow: none;
-    min-width: 100%;
+    max-width: 100%;
 }
 #tpos{
     background: url("Power-of-Scale.jpg") no-repeat 10% 72px, #DC723E;
@@ -898,8 +898,24 @@ hr{
     background: url("Work/V-Tuf/V-TUF-Banner.jpg") no-repeat 50% 100%, #DC723E;
     background-size: cover;
 }
-#lila{
-    background: url("Work/LilaConnect/Lila-Banner.jpg") no-repeat 50% 100%, #DC723E;
+#pwp{
+    background: url("Work/PWP/PWP-Banner.jpg") no-repeat 50% 100%, #DC723E;
+    background-size: cover;
+}
+#parc{
+    background: url("Work/Parc/Parc-Banner.jpg") no-repeat 50% 100%, #DC723E;
+    background-size: cover;
+}
+#howler{
+    background: url("Work/Howler/Howler-Banner.jpg") no-repeat 50% 100%, #DC723E;
+    background-size: cover;
+}
+#enapps{
+    background: url("Work/Enapps/Enapps-Banner.jpg") no-repeat 10% 100%, #DC723E;
+    background-size: cover;
+}
+#bakerite{
+    background: url("Work/Bakerite/Bakerite-Banner.jpg") no-repeat 50% 100%, #DC723E;
     background-size: cover;
 }
 figure{
