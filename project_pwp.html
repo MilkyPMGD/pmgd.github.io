@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pmgd | PWP</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/...">
+    <!--Google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap">
+</head>
+<!--By Pedro Martins
+    Ver: 1.0-->
+<body>
+    <svg class="sprites" width="0" height= "0">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="150 195 300 210" id="pmgd_icon">
+            <path fill="currentColor" d="M167.2,211.1c10.2-6.8,26.2-13.5,42.6-13.5c30.2,0,33.3,24.3,33.3,46.3c0,14.1-2,69.4-22,88.6
+            c-9.6,9.3-16.9,11.6-30.8,11.6h-10.7l-4.5,59.8h-23.1L167.2,211.1z M221.3,219.9h-32.2L181,324.3h32.2L221.3,219.9z"/>
+        <path fill="currentColor" d="M292.5,214c7.6-7.1,23.4-16.7,35.8-16.7c10.4,0,15.5,8.5,16.1,16.7c8.5-7.1,24.8-16.7,38.1-16.7
+            c14.1,0,17.5,10.7,17.5,20.6l-9.6,106.4h13l-1.1,16.1c-6.2,3.7-16.1,5.6-21.4,5.6c-7.3,0-14.7-2-14.7-15l9.9-111.2h-31.3
+            l-9.3,124.2h-23.7l10.4-124.2h-29.4l-9.6,124.2h-24.6l11.3-143.9h23.7L292.5,214z"/>
+        <path fill="currentColor" d="M447.7,315.8l-2.3,28.2H420l2.3-28.2H447.7z"/>        
+        </symbol>
+    </svg>
+
+    <div class="navbar">
+        <a href="work.html">Work</a>
+        <a href="archive.html">Archive</a>
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="mob-navbar">
+        <a href="index.html">
+            <svg id="pmgd_logo"><use xlink:href="#pmgd_icon"></use></svg>
+        </a>
+        <div class="burger" onclick="openNav();">
+            <div class="bun1"></div>
+            <div class="meat"></div>
+            <div class="bun2"></div>
+        </div>
+    </div>
+
+    <div id="myNav" class="overlay mobile-only">
+        <!-- Button to close the overlay navigation -->
+        <div href="javascript:void(0)" class="change" onclick="closeNav();">
+            <div class="bun1" id="white"></div>
+            <div class="meat" id="white"></div>
+            <div class="bun2" id="white"></div>
+        </div>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="work.html">Work</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="center_container">
+
+        <div class="hero" id="pwp"></div>
+
+        <section id="center_body">
+            <div id="center_text">
+                <h1>PWP</h1>
+                <h3>Design and marketing
+                <br>
+                <b id="read_length">Read: 1 minute</b>
+                </h3>    
+                <p>
+                <br>
+                PWP Industrial, a supplier for top of the line welding tools and machines with over 25 years of experience. I was responsible for producing monthly campaigns with the focus on promoting PWP's new product releases, their issue based "The Weld Book", and limited time deals & giveaways.
+                <br>
+                <br>
+                Below are a handful of examples for the emails, social media posts, and web banners produced for each campaign.
+                <br>
+                <br>
+                </p>
+            </div>
+
+            <figure class="center_img">
+                <img src="Work/PWP/PWP-Campaign-94.jpg" alt="Don't get 'burnt' by bad stools! Promoting the benefits and fire safety of using a welder friendly stool." onclick="onClick(this)">
+                <figcaption>Don't get 'burnt' by bad stools! Promoting the benefits and fire safety of using a welder friendly stool.</figcaption>
+            </figure>
+
+            <div id="center_text">
+                <p>
+                These campaigns followed a consistent brand look and messaging for all platforms. Even when introduing elements of humour to the marketing, the brand look was always recognisable.
+                <br>
+                <br>
+                </p>
+            </div>
+
+            <figure class="center_img">
+                <img src="Work/PWP/PWP-Campaign-97.gif" alt="Promoting the new The Weld Book issue 55." onclick="onClick(this)">
+                <figcaption>Promoting the new "The Weld Book" issue 55.</figcaption>
+            </figure>
+
+            <figure class="center_img">
+                <img src="Work/PWP/PWP-Campaign-400.jpg" alt="Marketing a new welder's tool release, with a free LEGO promotion for every order." onclick="onClick(this)">
+                <figcaption>Marketing a new welder's tool release, with a free LEGO promotion for every order.</figcaption>
+            </figure>
+
+        </section>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div class="modal" onclick="this.style.display='none'" id="modal01">
+        <span class="close">×</span>
+        <div class="modal-container">
+            <img class="mymodal" id="img01">
+        </div>
+    </div>
+    
+    <div class="copyright">
+        © Pedro Martins, <script type="text/javascript">document.write(new Date().getFullYear());</script>.
+        All Rights Reserved | Typeset in <a href="https://fonts.google.com/specimen/Sora" target="_blank">Sora</a> and <a href="https://fonts.google.com/specimen/Dela+Gothic+One" target="_blank">Delta Gothic One</a>.
+    </div>
+
+    <footer>
+        <!--Javascript-->
+        <script src="js/main.js"></script>
+        <script>
+            function scrollWin() {
+            window.scrollBy(0, 100);
+        }
+        </script>
+    </footer>
+</body>
+</html>
