@@ -1164,7 +1164,7 @@ textarea {
 
     .mob-snap {
         scroll-snap-align: start;
-        scroll-snap-stop: none;
+        scroll-snap-stop: always;
     }
 
     .mob-project {
